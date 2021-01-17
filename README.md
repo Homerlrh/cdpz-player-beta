@@ -7,8 +7,27 @@ This repo is source code of the player.
 
 ## Installation
 ````
-npm -i code-prez-player --save
+npm install cdpz-player-beta 
 ````
+
+## Props
+- content: Code Prez generated cdpz text file
+- audio: CodePrez generated weba audio file
+  
+## How to use
+```
+import React from "react";
+import Player from "cdpz-player-beta";
+
+function App() {
+  return (
+   <div className="App">
+       <Player content={content} audio={path/audio}/>
+    </div>
+  );
+}
+
+```
 
 
 
